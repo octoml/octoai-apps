@@ -16,9 +16,13 @@
 7. Under “configure autoscaling” set min and max replicas to 1
 8. Leave the rest of the fields to their default values and launch your endpoint hy hitting Create!
 
-Save the endpoint URL, you'll need it later in the step that requires you to pass in the `$A1111_URL``.
-
 You will be billed based on how long this endpoint is up and running, to pause your endpoint and stop being billed, you can select the endpoint you launched, then hit “Pause Endpoint”.
+
+
+* You can run A1111 Web UI in your browser by pasting that URL in your browser.
+* You can also access A1111 Web UI FastAPI documentation by adding `/docs` to that URL in your browser.
+
+Save the endpoint URL, you'll need it later in the step that requires you to pass in the `$A1111_URL``.
 
 ## Run the app
 
