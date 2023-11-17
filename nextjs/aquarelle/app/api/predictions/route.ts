@@ -15,6 +15,7 @@ export async function POST(request: NextRequest) {
         prompt: data.prompt,
         negative_prompt: "",
         style_preset: "Watercolor",
+        sampler: "K_EULER_ANCESTRAL",
         steps: 20,
         cfg_scale: 7,
         width: 1024,
