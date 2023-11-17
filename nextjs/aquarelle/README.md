@@ -21,7 +21,7 @@ docker build -t aquarelle .
 
 2. Run docker image
 ```bash
-docker run --rm -p 4000:4000 -e OCTOAI_TOKEN=$OCTOAI_TOKEN -it aquarelle
+docker run --rm -p 3000:3000 -e OCTOAI_TOKEN=$OCTOAI_TOKEN -it aquarelle
 ```
 
 ## Run without Docker
