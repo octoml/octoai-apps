@@ -34,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-          <meta property="og:image" content="https://imagedelivery.net/6A9je4VgKpUUJ1TFzhzc2g/83519c5a-4105-4cae-b07d-f9cdba37a000/public" />
+        <meta property="og:image" content="https://github.com/octoml/octoai-apps/blob/9c9a6192244401e1b11c677744bbe37558a462ea/assets/previews/aquarelle.jpeg?raw=true" />
         </head>
         <body
           className={cn(
