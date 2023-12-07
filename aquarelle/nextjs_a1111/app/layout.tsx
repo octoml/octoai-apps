@@ -34,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <meta property="og:image" content="aquarelle.jpeg" />
+        <meta property="og:image" content="/aquarelle.jpeg" />
         </head>
         <body
           className={cn(
