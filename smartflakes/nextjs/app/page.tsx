@@ -111,6 +111,9 @@ export default function IndexPage() {
             </CardFooter>
           </Card>
         )}
+        <span className="text-sm text-gray-600 leading-tight tracking-tighter">
+          Smartflakes uses <a href="https://huggingface.co/ostris/super-cereal-sdxl-lora" target="_blank" className="text-blue-500 hover:underline">SuperCereal SDXL LoRA</a> by <a href="https://ostris.com/" target="_blank" className="text-blue-500 hover:underline">Jaret Burkett</a>.
+        </span>
       </div>
     </section>
   )
