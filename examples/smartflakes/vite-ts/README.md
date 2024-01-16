@@ -1,19 +1,6 @@
-# OctoAI Apps
+# Smartflakes - Vite + TS
 
-A collection of OctoAI-based demos.
-
-Demos utilize a common design system that is easy to swap out for your own styling.
-
-## Languages
-
-Demos are currently available in:
-
-- Vite
-- Next.js
-
-All demos use TypeScript.
-
-<em>Want a demo in another framework? Feel free to open an [issue](https://github.com/octoml/octoai-apps/issues).</em>
+Smartflakes demo in Vite + TypeScript.
 
 ## Getting Started
 
@@ -21,20 +8,19 @@ Clone the repo
 
 ```bash
 git clone https://github.com/octoml/octoai-apps.git
-
 ```
 
-Navigate to the demo + framework you want to use
+Navigate to the Smartflakes Vite folder
 
 ```bash
-cd octoai-apps/examples/${DEMO_FOLDER}/${FRAMEWORK}
+cd octoai-apps/examples/smartflakes/vite-ts
 ```
 
 ## Add OctoAI token to `.env`
 
 Create an [OctoAI token](https://octo.ai/docs/getting-started/how-to-create-octoai-api-token/) if you don't already have one.
 
-Create a `.env` file in the folder you are working in (ie `octoai-apps/examples/aquarelle/nextjs`) and add your token:
+Create a `.env` file in the folder you are working in (`octoai-apps/examples/smartflakes/vite-ts`) and add your token:
 
 ```bash
 OCTOAI_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -60,12 +46,6 @@ This monorepo is using the local `design-system` as a dependency. To deploy a si
 
 <hr />
 
-### Vite + TS
-
 These demos utilize the [ViteExpress](https://github.com/szymmis/vite-express) library to prevent the OctoAI token from being exposed to the client.
 
 You will need a host capable of running an [Express](https://expressjs.com/) server. See [ViteExpress docs](https://github.com/szymmis/vite-express?tab=readme-ov-file#-shipping-to-production) for more info.
-
-### Next.js
-
-The easiest way to deploy is by using [Vercel](https://vercel.com/docs/frameworks/nextjs), but you can use [any host](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting) that supports Node.js.

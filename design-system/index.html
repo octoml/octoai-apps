@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aquarelle</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div>
+        <div class="left">
+          <a href="/">🎨 Aquarelle</a>
+        </div>
+        <div class="right">
+          <a href="https://octoml.ai" target="_blank">
+            <span>powered by</span>
+            <img src="/icons/octo.svg" alt="OctoML Icon" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="hero">
+        <h1>Create your own <span>watercolor masterpiece</span></h1>
+      </div>
+
+      <div id="generate-image"></div>
+      <p class="credit">
+        Aquarelle uses <a href="#" target="_blank">Example LoRA</a> by <a href="#" target="_blank">Example.</a>
+      </p>
+    </main>
+
+    <footer>
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="with-icon">
+              <a href="#">
+                <img src="/icons/github.svg" alt="Github Icon" />
+                View on Github
+              </a>
+            </li>
+            <li class="with-icon">
+              <a href="#">
+                <img src="/icons/vercel.svg" alt="Github Icon" />
+                Deploy to Vercel
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li><a href="#">Powered by OctoAI</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
