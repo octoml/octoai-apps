@@ -7,15 +7,9 @@ const Footer = () => {
                 <nav>
                     <ul>
                         <li className="with-icon">
-                            <a href="#">
+                            <a href="https://github.com/octoml/octoai-apps/tree/main/examples/smartflakes/nextjs" target="_blank">
                                 <Image src="/icons/github.svg" alt="Github Icon" width='18' height='18' />
                                 View on Github
-                            </a>
-                        </li>
-                        <li className="with-icon">
-                            <a href="#">
-                                <Image src="/icons/vercel.svg" alt="Github Icon" width='18' height='18' />
-                                Deploy to Vercel
                             </a>
                         </li>
                     </ul>
