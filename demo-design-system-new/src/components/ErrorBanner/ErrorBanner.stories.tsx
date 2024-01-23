@@ -7,7 +7,7 @@ const meta: Meta<typeof ErrorBanner> = {
     component: ErrorBanner,
     decorators: [
         (Story) => (
-            <div>
+            <div className='interactive'>
                 <Story />
             </div>
         )

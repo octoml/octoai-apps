@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer>
-            <div className="container">
+            <div className="container m-auto">
                 <nav>
                     <ul>
                         <li className="with-icon">
