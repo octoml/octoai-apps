@@ -6,7 +6,7 @@ import Image from "next/image";
 import { getAltText } from "@/util/getAltText";
 import ErrorBanner from "./ErrorBanner";
 
-const GenerateImage = () => {
+const GeneratedImage = () => {
     const initialPrompt = "a llama in a superhero costume";
     const [inputValue, setInputValue] = useState("");
     const [generatedImage, setGeneratedImage] = useState(
@@ -78,4 +78,4 @@ const GenerateImage = () => {
     );
 };
 
-export default GenerateImage;
+export default GeneratedImage;

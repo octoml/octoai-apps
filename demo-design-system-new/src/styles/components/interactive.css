@@ -1,0 +1,50 @@
+.interactive {
+  @apply flex flex-col gap-11 sm:gap-16;
+}
+
+.interactive #prompt {
+  @apply flex flex-col gap-3 sm:flex-row sm:items-end sm:gap-0;
+}
+
+.interactive #prompt label {
+  @apply flex flex-col items-start gap-2 transition-spacing sm:w-full sm:gap-6;
+}
+
+.interactive #prompt p {
+  @apply text-2xs transition-font-size  sm:text-xs;
+}
+
+.interactive #prompt button {
+  @apply mr-auto flex-shrink-0 sm:rounded-l-none sm:border-l-0;
+}
+
+.interactive #prompt input {
+  @apply sm:rounded-r-none sm:border-r-0;
+}
+
+.interactive .result {
+  @apply relative;
+}
+.interactive .result img {
+  @apply rounded border border-gray-300 shadow-light dark:border-gray-500 dark:shadow-dark;
+}
+
+.interactive .result #loading-spinner {
+  @apply bg-gray-50 dark:bg-black-500 border-gray-300 dark:border-gray-500 border rounded w-full h-full absolute flex items-center justify-center;
+}
+
+.interactive .result #loading-spinner svg {
+  @apply w-20 h-20 md:w-28 md:h-28 text-gray-200 animate-spin dark:text-gray-700 fill-orange dark:fill-blue transition-sizing;
+}
+
+.interactive #error-banner {
+  @apply container fixed bottom-0 left-0 w-full max-w-none z-50;
+}
+
+.interactive #error-banner > .content {
+  @apply relative mx-auto w-full max-w-[50rem] rounded border bg-orange px-4 py-3 pr-12;
+}
+
+.interactive #error-banner > .content button {
+  @apply flex transition-colors hover:fill-gray-700;
+}
