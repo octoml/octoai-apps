@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import '@octoai-apps/design-system/dist/style.css'
+import '@octoai-apps/design-system/dist/styles.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
