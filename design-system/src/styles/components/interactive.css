@@ -18,7 +18,7 @@
   .result {
     @apply relative;
     img {
-      @apply rounded border border-gray-300 shadow-light dark:border-gray-500 dark:shadow-dark;
+      @apply rounded border border-gray-300 shadow-light dark:border-gray-600 dark:shadow-dark;
     }
   }
   #error-banner {

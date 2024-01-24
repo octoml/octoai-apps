@@ -1,11 +1,11 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import LoadingSpinner from "../Loading/Spinner/Spinner";
+import Spinner from "../Loading/Spinner";
 import Image from "next/image";
 import { getAltText } from "@/util/getAltText";
-import ErrorBanner from "../ErrorBanner/ErrorBanner";
-import Prompt from "../Prompt/Prompt";
+import ErrorBanner from "../ErrorBanner";
+import Prompt from "../Prompt";
 
 const GeneratedImage = () => {
   const initialPrompt = "llama flakes, real tokens inside";
@@ -57,7 +57,7 @@ const GeneratedImage = () => {
         handleSubmit={handleSubmit}
       />
       <div className="result">
-        {loading && <LoadingSpinner />}
+        {loading && <Spinner />}
         <Image
           id="generated-img"
           src={generatedImage}

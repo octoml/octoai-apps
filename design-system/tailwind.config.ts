@@ -97,7 +97,12 @@ const theme: Config = {
       transparent: "transparent",
       white: "#FFFFFF",
       orange: "#FF6E57",
-      blue: "#0096FF",
+      blue: {
+        100: "#B2DEFF",
+        500: "#0096FF",
+        700: "#1476DD",
+        900: "#0D3B72",
+      },
       black: {
         500: "#111213",
         600: "#0A0B0B",
