@@ -64,7 +64,7 @@ main.container {
 }
 
 button {
-  @apply mt-2 block w-auto rounded bg-gradient-orange from-orange to-orange px-4  py-9px shadow-light hover:bg-gradient-to-r focus-visible:bg-gradient-to-r dark:bg-gradient-teal dark:from-blue dark:to-blue dark:text-black-900 dark:shadow-dark dark:hover:bg-gradient-to-r sm:mt-0;
+  @apply mt-2 block w-auto rounded bg-gradient-orange from-orange to-orange px-4  py-9px shadow-light hover:bg-gradient-to-r focus-visible:bg-gradient-to-r dark:bg-gradient-teal dark:from-blue-500 dark:to-blue-500 dark:text-black-900 dark:shadow-dark dark:hover:bg-gradient-to-r sm:mt-0;
 }
 
 a {
@@ -72,12 +72,12 @@ a {
 }
 
 input {
-  @apply w-full rounded border border-gray-300 px-3 py-2 shadow-light dark:border dark:border-gray-500 dark:bg-white dark:bg-opacity-5 dark:shadow-dark;
+  @apply w-full rounded border border-gray-300 px-3 py-2 shadow-light dark:border dark:border-gray-600 dark:bg-white dark:bg-opacity-5 dark:shadow-dark;
 }
 
 .credit {
   @apply text-center mt-3 text-gray-600 dark:text-gray-400;
   a {
-    @apply text-blue;
+    @apply text-blue-500;
   }
 }

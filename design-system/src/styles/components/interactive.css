@@ -18,13 +18,7 @@
   .result {
     @apply relative;
     img {
-      @apply rounded border border-gray-300 shadow-light dark:border-gray-500 dark:shadow-dark;
-    }
-    #loading-spinner {
-      @apply bg-gray-50 dark:bg-black-500 border-gray-300 dark:border-gray-500 border rounded w-full h-full absolute flex items-center justify-center;
-      svg {
-        @apply w-20 h-20 md:w-28 md:h-28 text-gray-200 animate-spin dark:text-gray-700 fill-orange dark:fill-blue transition-sizing;
-      }
+      @apply rounded border border-gray-300 shadow-light dark:border-gray-600 dark:shadow-dark;
     }
   }
   #error-banner {
