@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OctoAI Demo Design System 🐙
+
+The core design system for OctoAI Demos. This is used as a local package for all demos in the `examples` directory.
 
 ## Getting Started
 
-First, run the development server:
+Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/octoml/octoai-apps.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the design system folder
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd cd octoai-apps/design-system
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+yarn
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the dev server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Start the Storybook dev server
 
-## Deploy on Vercel
+```bash
+yarn storybook
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Building styles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To build out styles, run `yarn build:styles`. This will update the package output for all demos in the `/examples` directory.
+
+## Contributing 👨🏽‍💻
+
+**Commit Format** Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format for commit messages:
+
+```vim
+<type>(<scope>): <message>
+```
+
+where <type> is the change type (e.g., feat, fix), <scope> (optional) specifies the change's scope, and <message> briefly describes the change.
+
+All commit messages are linted using [Husky](https://typicode.github.io/husky/) pre-commit.
