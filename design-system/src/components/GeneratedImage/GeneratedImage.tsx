@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import LoadingSpinner from "../Loading/Spinner/Spinner";
 import Image from "next/image";
 import { getAltText } from "@/util/getAltText";
 import ErrorBanner from "../ErrorBanner/ErrorBanner";
