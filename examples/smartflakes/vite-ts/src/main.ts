@@ -1,4 +1,4 @@
-import "@octoai-apps/design-system/dist/style.css";
+import "@octoai-apps/design-system/dist/styles.css";
 import { generateImage } from "./util/generateImage";
 import { loadingSpinner } from "./components/loadingSpinner";
 import { errorBanner } from "./components/errorBanner";

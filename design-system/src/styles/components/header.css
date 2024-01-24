@@ -3,7 +3,7 @@ header {
 }
 
 header.container {
-  @apply sm:py-4;
+  @apply sm:py-4 max-w-none;
 }
 
 header > div {

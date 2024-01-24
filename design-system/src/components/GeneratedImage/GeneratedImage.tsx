@@ -1,10 +1,10 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import LoadingSpinner from "./LoadingSpinner";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import Image from "next/image";
 import { getAltText } from "@/util/getAltText";
-import ErrorBanner from "./ErrorBanner";
+import ErrorBanner from "../ErrorBanner/ErrorBanner";
 
 const GeneratedImage = () => {
     const initialPrompt = "llama flakes, real tokens inside";
