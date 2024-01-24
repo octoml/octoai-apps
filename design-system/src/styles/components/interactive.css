@@ -15,7 +15,7 @@
 }
 
 .interactive #prompt button {
-  @apply mr-auto sm:rounded-l-none sm:border-l-0;
+  @apply mr-auto flex-shrink-0 sm:rounded-l-none sm:border-l-0;
 }
 
 .interactive #prompt input {
