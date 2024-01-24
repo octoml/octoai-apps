@@ -3,40 +3,40 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: "Lexend";
   src:
-    url('/fonts/Lexend-Regular.woff2') format('woff2'),
-    url('/fonts/Lexend-Regular.woff') format('woff');
+    url("/fonts/Lexend-Regular.woff2") format("woff2"),
+    url("/fonts/Lexend-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: "Lexend";
   src:
-    url('/fonts/Lexend-Medium.woff2') format('woff2'),
-    url('/fonts/Lexend-Medium.woff') format('woff');
+    url("/fonts/Lexend-Medium.woff2") format("woff2"),
+    url("/fonts/Lexend-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: "Lexend";
   src:
-    url('/fonts/Lexend-SemiBold.woff2') format('woff2'),
-    url('/fonts/Lexend-SemiBold.woff') format('woff');
+    url("/fonts/Lexend-SemiBold.woff2") format("woff2"),
+    url("/fonts/Lexend-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: "Lexend";
   src:
-    url('/fonts/Lexend-ExtraBold.woff2') format('woff2'),
-    url('/fonts/Lexend-ExtraBold.woff') format('woff');
+    url("/fonts/Lexend-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Lexend-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -77,7 +77,7 @@ input {
 
 .credit {
   @apply text-center mt-3 text-gray-600 dark:text-gray-400;
-}
-.credit a {
-  @apply text-blue;
+  a {
+    @apply text-blue;
+  }
 }
