@@ -1,5 +1,5 @@
 .chat-bubble {
-  @apply rounded border border-gray-300 px-4 py-2 dark:border-gray-600 max-w-[85%] sm:max-w-[80%] transition-sizing;
+  @apply rounded border border-gray-300 px-4 py-2 dark:border-gray-600 max-w-[85%] sm:max-w-[80%] transition-sizing text-wrap break-words;
   &.primary {
     @apply ml-auto bg-blue-100 dark:bg-blue-900;
   }
@@ -44,6 +44,6 @@
     @apply text-2xs;
   }
   code {
-    @apply bg-gray-800 text-white p-[2px] dark:bg-gray-600;
+    @apply bg-gray-800 text-white p-[2px] dark:bg-gray-600 text-wrap break-words;
   }
 }
