@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, Fragment, useEffect, useState } from "react";
+import { FormEvent, Fragment, useState } from "react";
 import LoadingDots from "./LoadingDots";
 import ErrorBanner from "./ErrorBanner";
 import Prompt from "./Prompt";
@@ -52,10 +52,6 @@ const UserChat = () => {
       },
     ]);
   };
-
-  useEffect(() => {
-    console.log(messages);
-  }, [messages]);
 
   return (
     <div
