@@ -1,5 +1,8 @@
 .interactive {
   @apply flex flex-col gap-11 sm:gap-16;
+  &.condensed {
+    @apply gap-6;
+  }
   #prompt {
     @apply flex flex-col gap-3 sm:flex-row sm:items-end sm:gap-0;
     label {
@@ -14,11 +17,22 @@
     input {
       @apply sm:rounded-r-none sm:border-r-0;
     }
+    &.lg {
+      input {
+        @apply p-4 text-2xs font-normal;
+      }
+      button {
+        @apply py-[19px];
+      }
+    }
   }
   .result {
-    @apply relative;
+    @apply relative flex flex-col;
     img {
       @apply rounded border border-gray-300 shadow-light dark:border-gray-600 dark:shadow-dark;
+    }
+    &.chat {
+      @apply gap-6;
     }
   }
   #error-banner {

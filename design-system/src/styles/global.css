@@ -61,6 +61,12 @@ body {
 
 main.container {
   @apply mx-auto mb-16 flex max-w-[50rem] flex-col gap-8 sm:mt-4 sm:px-16;
+  &.flex-height {
+    @apply justify-between flex-grow;
+    & > div:first-child {
+      @apply pb-8;
+    }
+  }
 }
 
 button {
@@ -75,9 +81,14 @@ input {
   @apply w-full rounded border border-gray-300 px-3 py-2 shadow-light dark:border dark:border-gray-600 dark:bg-white dark:bg-opacity-5 dark:shadow-dark;
 }
 
-.credit {
+.credit,
+.disclaimer {
   @apply text-center mt-3 text-gray-600 dark:text-gray-400;
   a {
     @apply text-blue-500;
   }
+}
+
+.disclaimer {
+  @apply italic;
 }

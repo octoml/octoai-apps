@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className="container m-auto">
+      <div className="container">
         <nav>
           <ul>
             <li className="with-icon">
@@ -23,13 +23,13 @@ const Footer = () => {
           </ul>
           <ul>
             <li>
-              <a href="https://octo.ai/?utm_source=smartflakes" target="_blank">
+              <a href="https://octo.ai/?utm_source=doctalk" target="_blank">
                 Powered by OctoAI
               </a>
             </li>
             <li>
               <a
-                href="https://octo.ai/legals/privacy-policy/?utm_source=smartflakes"
+                href="https://octo.ai/legals/privacy-policy/?utm_source=doctalk"
                 target="_blank"
               >
                 Privacy Policy
@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://octo.ai/legals/terms-of-use/?utm_source=smartflakes"
+                href="https://octo.ai/legals/terms-of-use/?utm_source=doctalk"
                 target="_blank"
               >
                 Terms of Use

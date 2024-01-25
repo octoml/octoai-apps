@@ -1,6 +1,4 @@
-"use client";
-
-import { Dispatch, FC, FormEvent, SetStateAction, useState } from "react";
+import { Dispatch, FC, FormEvent, SetStateAction } from "react";
 
 interface PromptProps {
   /** Label that displays on top of form */
