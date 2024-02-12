@@ -13,7 +13,7 @@ git clone https://github.com/octoml/octoai-apps.git
 Navigate to the design system folder
 
 ```bash
-cd cd octoai-apps/design-system
+cd octoai-apps/design-system
 ```
 
 Install dependencies
