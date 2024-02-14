@@ -8,7 +8,7 @@ const Footer = () => {
           <ul>
             <li className="with-icon">
               <a
-                href="https://github.com/octoml/octoai-apps/tree/main/aquarelle"
+                href="https://github.com/octoml/octoai-apps/tree/main/foldify"
                 target="_blank"
               >
                 <Image
@@ -22,7 +22,7 @@ const Footer = () => {
             </li>
             <li className="with-icon">
               <a
-                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%2Faquarelle&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-aquarelle-app&repository-name=my-aquarelle-app"
+                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%2Ffoldify&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-foldify-app&repository-name=my-foldify-app"
                 target="_blank"
               >
                 <Image
@@ -37,13 +37,13 @@ const Footer = () => {
           </ul>
           <ul>
             <li>
-              <a href="https://octo.ai/?utm_source=aquarelle" target="_blank">
+              <a href="https://octo.ai/?utm_source=foldify" target="_blank">
                 Powered by OctoAI
               </a>
             </li>
             <li>
               <a
-                href="https://octo.ai/legals/privacy-policy/?utm_source=aquarelle"
+                href="https://octo.ai/legals/privacy-policy/?utm_source=foldify"
                 target="_blank"
               >
                 Privacy Policy
@@ -51,7 +51,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://octo.ai/legals/terms-of-use/?utm_source=aquarelle"
+                href="https://octo.ai/legals/terms-of-use/?utm_source=foldify"
                 target="_blank"
               >
                 Terms of Use
