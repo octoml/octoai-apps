@@ -20,6 +20,20 @@ const Footer = () => {
                 View on Github
               </a>
             </li>
+            <li className="with-icon">
+              <a
+                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%2Fsmartflakes&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-smartflakes-app&repository-name=my-smartflakes-app"
+                target="_blank"
+              >
+                <Image
+                  src="/icons/vercel.svg"
+                  alt="Vercel Icon"
+                  width="18"
+                  height="18"
+                />
+                Deploy to Vercel
+              </a>
+            </li>
           </ul>
           <ul>
             <li>
