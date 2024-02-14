@@ -1,12 +1,7 @@
 {
-  "name": "octoai-apps-dev",
+  "name": "octoai-apps",
   "version": "1.0.0",
   "description": "A collection of demos for OctoAI's Youtube Channel etc.",
   "author": "",
-  "main": "index.js",
-  "private": true,
-  "workspaces": [
-      "design-system",
-      "examples/**"
-    ]
+  "main": "index.js"
 }

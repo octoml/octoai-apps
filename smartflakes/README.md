@@ -1,6 +1,6 @@
-# OctoAI Apps
+# Smartflakes
 
-A collection of OctoAI-based demos.
+Smartflakes demo in Next.js + TypeScript.
 
 Demos utilize our [demo design system](https://github.com/octoml/demo-design-system) that is easy to swap out for your own styling.
 
@@ -24,14 +24,14 @@ git clone https://github.com/octoml/octoai-apps.git
 Navigate to the demo you want to use
 
 ```bash
-cd octoai-apps/${DEMO_FOLDER}
+cd octoai-apps/smartflakes
 ```
 
 ## Add OctoAI token to `.env`
 
 Create an [OctoAI token](https://octo.ai/docs/getting-started/how-to-create-an-octoai-access-token) if you don't already have one.
 
-Create a `.env` file in the folder you are working in (ie `octoai-apps/aquarelle`) and add your token:
+Create a `.env` file in the folder you are working in (ie `octoai-apps/smartflakes`) and add your token:
 
 ```bash
 OCTOAI_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

@@ -1,6 +1,6 @@
-# OctoAI Apps
+# Aquarelle
 
-A collection of OctoAI-based demos.
+Aquarelle demo in Next.js + TypeScript.
 
 Demos utilize our [demo design system](https://github.com/octoml/demo-design-system) that is easy to swap out for your own styling.
 
@@ -24,7 +24,7 @@ git clone https://github.com/octoml/octoai-apps.git
 Navigate to the demo you want to use
 
 ```bash
-cd octoai-apps/${DEMO_FOLDER}
+cd octoai-apps/aquarelle
 ```
 
 ## Add OctoAI token to `.env`
