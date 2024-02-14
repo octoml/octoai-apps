@@ -1,4 +1,5 @@
 import Image from "next/image";
+import DatePicker from "react-date-picker";
 
 const Header = () => {
   return (
@@ -6,8 +7,6 @@ const Header = () => {
       <div>
         <div className="left">
           <a href="/">⏳ LLM Time Capsule</a>
-        </div>
-        <div className="right">
           <a href="https://octo.ai/?utm_source=llm-time-capsule" target="_blank">
             <span>by</span>
             <Image
@@ -17,6 +16,9 @@ const Header = () => {
               height="24"
             />
           </a>
+        </div>
+        <div className="right">
+          <DatePicker />
         </div>
       </div>
     </header>
