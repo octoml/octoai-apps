@@ -1,5 +1,7 @@
 # Smartflakes
 
+[Try out](https://smartflakes.octo.ai/) Smartflakes for yourself!
+
 Smartflakes demo in Next.js + TypeScript.
 
 Demos utilize our [demo design system](https://github.com/octoml/demo-design-system) that is easy to swap out for your own styling.
@@ -31,7 +33,7 @@ cd octoai-apps/smartflakes
 
 Create an [OctoAI token](https://octo.ai/docs/getting-started/how-to-create-an-octoai-access-token) if you don't already have one.
 
-Create a `.env` file in the folder you are working in (ie `octoai-apps/smartflakes`) and add your token:
+Create a `.env` file in the folder you are working in (`octoai-apps/smartflakes`) and add your token:
 
 ```bash
 OCTOAI_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
