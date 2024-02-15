@@ -3,8 +3,23 @@ import "@octoai/demo-design-system/dist/styles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const siteTitle = "Smartflakes | Powered by OctoAI";
+const siteDescription = "Create your own fun cereal box design";
+const socialShare = "/images/social-share.png";
+
 export const metadata: Metadata = {
-  title: "Smartflakes | Powered by OctoAI",
+  title: siteTitle,
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    images: [{ url: socialShare }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: [socialShare],
+  },
 };
 
 export default function RootLayout({
