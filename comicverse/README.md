@@ -1,5 +1,7 @@
 # Comicverse
 
+[Try out](https://comicverse.octo.ai/) Comicverse for yourself!
+
 Comicverse demo in Next.js + TypeScript.
 
 Demos utilize our [demo design system](https://github.com/octoml/demo-design-system) that is easy to swap out for your own styling.
@@ -31,7 +33,7 @@ cd octoai-apps/comicverse
 
 Create an [OctoAI token](https://octo.ai/docs/getting-started/how-to-create-an-octoai-access-token) if you don't already have one.
 
-Create a `.env` file in the folder you are working in (ie `octoai-apps/comicverse`) and add your token:
+Create a `.env` file in the folder you are working in (`octoai-apps/comicverse`) and add your token:
 
 ```bash
 OCTOAI_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -53,6 +55,6 @@ yarn dev
 
 ## Deploying
 
-[Deploy to Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%2Ffoldify&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-comicverse-app&repository-name=my-comicverse-app)
+[Deploy to Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foctoml%2Foctoai-apps%2Ftree%2Fmain%comicverse&env=OCTOAI_TOKEN&envDescription=Create%20an%20OctoAI%20token%20if%20you%20don't%20already%20have%20one.&envLink=https%3A%2F%2Focto.ai%2Fdocs%2Fgetting-started%2Fhow-to-create-an-octoai-access-token&project-name=my-comicverse-app&repository-name=my-comicverse-app)
 
 The easiest way to deploy is by using [Vercel](https://vercel.com/docs/frameworks/nextjs), but you can use [any host](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting) that supports Node.js.
