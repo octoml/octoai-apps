@@ -5,10 +5,10 @@ const Header = () => {
     <header className="container">
       <div>
         <div className="left">
-          <a href="/">🥣 Smartflakes</a>
+          <a href="/">🧵 Embroiderize</a>
         </div>
         <div className="right">
-          <a href="https://octo.ai/?utm_source=smartflakes" target="_blank">
+          <a href="https://octo.ai/?utm_source=embroiderize" target="_blank">
             <span>powered by</span>
             <Image
               src="/icons/octo.svg"

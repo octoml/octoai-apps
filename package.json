@@ -1,8 +1,0 @@
-{
-  "name": "octoai-apps",
-  "version": "1.0.0",
-  "description": "A collection of demos for OctoAI's Youtube Channel etc.",
-  "author": "",
-  "main": "index.js",
-  "license": "MIT"
-}
