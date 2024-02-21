@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
         style_preset: "base",
         checkpoint: "octoai:lcm_sdxl",
         sampler: "LCM",
-        loras: { asset_01hpwp84x4ewf9gqq4qzbg1xgh: 1 },
+        loras: { asset_01hq3vjh1pffjtqhwzqwzzr44a: 1 },
         steps: 30,
         cfg_scale: 2,
         width: 1024,
