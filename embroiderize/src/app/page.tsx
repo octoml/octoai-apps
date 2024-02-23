@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="container">
       <div className="hero">
-        <h1>
+        <h1 className="heading">
           Create your own <span>embroidered design</span>
         </h1>
       </div>

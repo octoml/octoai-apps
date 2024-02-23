@@ -58,7 +58,9 @@ const GeneratedImage = () => {
             onChange={(e) => setInputValue(e.target.value)}
           />
         </label>
-        <button id="generate-btn">Generate</button>
+        <button id="generate-btn" className="button">
+          Generate
+        </button>
       </form>
       <div className="result">
         {loading && <LoadingSpinner />}
