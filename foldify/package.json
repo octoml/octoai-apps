@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@octoai/demo-design-system": "*",
+    "@next/third-parties": "^14.1.2",
     "@octoai/client": "^0.4.1",
+    "@octoai/demo-design-system": "*",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
