@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@octoai/demo-design-system/dist/styles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const siteTitle = "Comicverse | Powered by OctoAI";
 const siteDescription = "Create your own comic book panel";
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <GoogleTagManager gtmId="GTM-MK9B3HC" />
       </body>
     </html>
   );
